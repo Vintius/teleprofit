@@ -44,14 +44,14 @@
   }
 
   .slick-prev {
-    background: url("/img/svg/left.svg") no-repeat center/cover;
+    background: url("../img/svg/left.svg") no-repeat center/cover;
     width: 61px;
     height: 61px;
     left: 0;
   }
 
   .slick-next {
-    background: url("/img/svg/right.svg") no-repeat center/cover;
+    background: url("../img/svg/right.svg") no-repeat center/cover;
     width: 61px;
     height: 61px;
     right: 0;
@@ -97,7 +97,7 @@
         height: 419px;
         top: -76px;
         left: -76px;
-        background: url("/img/svg/red-circle-rounds.svg") no-repeat center;
+        background: url("../img/svg/red-circle-rounds.svg") no-repeat center;
       }
     }
 
@@ -112,14 +112,14 @@
         height: 417px;
         top: -116px;
         left: -116px;
-        background: url("/img/svg/green-circle-rounds.svg") no-repeat center;
+        background: url("../img/svg/green-circle-rounds.svg") no-repeat center;
         z-index: -5;
       }
     }
   }
 
   &--squares {
-    background: url("/img/square-lines.png") no-repeat center;
+    background: url("../img/square-lines.png") no-repeat center;
     height: 271px;
     justify-content: center;
     align-items: flex-end;
@@ -178,7 +178,7 @@
         height: 437px;
         top: -52px;
         left: -52px;
-        background: url("/img/svg/red-triangle-bg.svg") no-repeat center/cover;
+        background: url("../img/svg/red-triangle-bg.svg") no-repeat center/cover;
       }
     }
 
@@ -194,7 +194,7 @@
         height: 417px;
         top: -87px;
         left: -86px;
-        background: url("/img/svg/green-triangle-bg.svg") no-repeat center;
+        background: url("../img/svg/green-triangle-bg.svg") no-repeat center;
         z-index: -5;
       }
     }
@@ -211,7 +211,7 @@
 
   &::before {
     content: "";
-    background: url("/img/svg/thin-arrow.svg") no-repeat center;
+    background: url("../img/svg/thin-arrow.svg") no-repeat center;
     position: absolute;
     width: 100px;
     height: 88px;
@@ -238,7 +238,7 @@
 
   &::after {
     content: "";
-    background: url("/img/svg/thin-arrow.svg") no-repeat center;
+    background: url("../img/svg/thin-arrow.svg") no-repeat center;
     position: absolute;
     width: 100px;
     height: 88px;
