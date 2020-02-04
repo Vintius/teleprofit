@@ -1,4 +1,4 @@
-# gulp-scss-starter
+# Teleprofit
 
 Сборка проекта основана на разработке
 https://github.om/andreyalexeich/gulp-scss-starter.git
