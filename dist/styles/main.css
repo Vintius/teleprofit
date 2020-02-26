@@ -648,6 +648,10 @@ button {
   border-bottom: 1px solid #bfbfbf;
 }
 
+.samples .slick-slide {
+  overflow: hidden;
+}
+
 .samples__content {
   padding-top: 74px;
   padding-bottom: 83px;
@@ -700,17 +704,13 @@ button {
   right: 0;
 }
 
-.samples__slider .slick-list {
-  padding-top: 78px !important;
-}
-
 .samples__slideTop {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 60px;
   max-width: 854px;
-  margin: 0 auto 107px;
+  margin: 78px auto 107px;
   box-sizing: content-box;
 }
 
@@ -796,6 +796,10 @@ button {
 .samples__slideTop--squares .samples__afterDesc::after {
   transform: rotateY(180deg);
   top: 85px;
+}
+
+.samples__slideTop--triangles {
+  margin-bottom: 50px;
 }
 
 .samples__slideTop--triangles .samples__beforeShape::after {
@@ -1211,10 +1215,6 @@ button {
     margin-bottom: 34px;
   }
 
-  .samples__sliderTabLinks {
-    margin-bottom: 68px;
-  }
-
   .samples__sliderTabLink {
     font-size: 22px;
   }
@@ -1229,11 +1229,19 @@ button {
 
   .samples__slideTop {
     padding: 0;
-    margin-bottom: 77px;
+    margin-top: 0;
+    margin-bottom: 47px;
   }
 
   .samples__slideTop--circles {
     flex-direction: column;
+    position: relative;
+    margin-top: 120px;
+  }
+
+  .samples__slideTop--circles .samples__beforeDesc {
+    position: absolute;
+    top: -120px;
   }
 
   .samples__slideTop--circles .samples__beforeDesc::before {
@@ -1285,15 +1293,17 @@ button {
 
   .samples__slideTop--triangles {
     position: relative;
+    flex-direction: column;
     justify-content: center;
-    padding-top: 179px;
-    margin-bottom: 170px;
+    padding-top: 89px;
+    margin-bottom: 5px;
   }
 
   .samples__slideTop--triangles .samples__beforeDesc {
     position: absolute;
     top: 0;
     font-size: 22px;
+    z-index: 10;
   }
 
   .samples__slideTop--triangles .samples__beforeDesc::before {
@@ -1302,10 +1312,16 @@ button {
     left: -40px;
   }
 
+  .samples__slideTop--triangles .samples__afterShape {
+    margin-left: -30px;
+    margin-top: 0;
+    top: -80px;
+  }
+
   .samples__slideTop--triangles .samples__afterDesc {
     position: absolute;
     font-size: 22px;
-    bottom: -145px;
+    bottom: 0;
   }
 
   .samples__slideTop--triangles .samples__afterDesc::after {
@@ -1323,6 +1339,9 @@ button {
     font-size: 24px;
     max-width: 310px;
     margin-bottom: 46px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
   }
 
   .samples__afterDesc {
@@ -1556,6 +1575,121 @@ button {
 
   .clients__logoBox {
     transform: scale(0.7);
+  }
+}
+
+@media (max-width: 425px) {
+  .samples__beforeShape img {
+    transform: scale(0.8);
+  }
+
+  .samples__beforeShape:after {
+    transform: scale(0.8);
+  }
+
+  .samples__afterShape img {
+    transform: scale(0.8);
+  }
+
+  .samples__afterShape:after {
+    transform: scale(0.8);
+  }
+
+  .samples__slideTop {
+    margin-top: 0;
+  }
+
+  .samples__slideTop--circles {
+    margin-top: 120px;
+    margin-bottom: 67px;
+  }
+
+  .samples__slideTop--circles .samples__beforeDesc:before {
+    transform: rotateY(180deg) rotate(25deg) scale(0.8);
+    top: 73px;
+    right: -14px;
+  }
+
+  .samples__slideTop--circles .samples__afterDesc:after {
+    transform: rotateY(180deg) rotate(-133deg) scale(0.8);
+    left: -49px;
+  }
+
+  .samples__slideTop--circles .samples__afterShape {
+    margin-top: -90px;
+  }
+
+  .samples__slideTop--squares {
+    margin-top: 172px;
+  }
+
+  .samples__slideTop--squares .samples__beforeDesc:before {
+    transform: rotate(75deg) scale(0.8);
+    top: 110px;
+    left: 7px;
+  }
+
+  .samples__slideTop--squares .samples__afterDesc:after {
+    right: -71px;
+    transform: rotate(-109deg) scale(0.8);
+  }
+
+  .samples__slideTop--squares .samples__beforeShape {
+    top: 25px;
+    left: 7%;
+  }
+
+  .samples__slideTop--squares .samples__afterShape {
+    top: 14px;
+    left: -3%;
+  }
+
+  .samples__slideTop--triangles .samples__beforeDesc:before {
+    transform: rotate(75deg) scale(0.8);
+    top: 70px;
+    left: 2px;
+  }
+
+  .samples__slideTop--triangles .samples__beforeShape img {
+    transform: scale(0.75);
+  }
+
+  .samples__slideTop--triangles .samples__beforeShape:after {
+    transform: scale(0.75);
+  }
+
+  .samples__slideTop--triangles .samples__afterShape {
+    margin-left: -9px;
+    top: -120px;
+  }
+
+  .samples__slideTop--triangles .samples__afterShape img {
+    transform: scale(0.75);
+  }
+
+  .samples__slideTop--triangles .samples__afterShape:after {
+    transform: scale(0.75);
+  }
+
+  .samples__slideTop--triangles .samples__afterDesc {
+    bottom: 50px;
+  }
+
+  .samples__slideTop--triangles .samples__afterDesc:after {
+    right: -84px;
+    transform: rotate(-133deg) scale(0.8);
+  }
+
+  .samples__logo {
+    width: 50px;
+  }
+
+  .samples__columnTop {
+    font-size: 43px;
+  }
+
+  .samples__columnDesc {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=maps/main.css.map */
