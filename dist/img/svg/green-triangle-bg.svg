@@ -1,1 +1,16 @@
-<svg id="group2" xmlns="http://www.w3.org/2000/svg" width="358" height="358" viewBox="0 0 358 358"><defs><style>.cls-1{fill:#fff;fill-opacity:0;stroke:#f5f5f5;stroke-linejoin:round;stroke-width:1px;fill-rule:evenodd}</style></defs><path id="Polygon_4_copy_2" data-name="Polygon 4 copy 2" class="cls-1" d="M746.9 670.069q-257.685-69.046-69.046-257.685t257.685 69.046q69.047 257.685-188.639 188.639z" transform="translate(-595.5 -329.5)"/><path id="Polygon_4_copy" data-name="Polygon 4 copy" class="cls-1" d="M751.182 644.7Q534 586.5 692.99 427.518t217.178 58.193Q968.361 702.889 751.182 644.7z" transform="translate(-595.5 -329.5)"/></svg>
+<svg id="group2" xmlns="http://www.w3.org/2000/svg" width="358" height="358" viewBox="0 0 358 358">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-opacity: 0;
+        stroke: #f5f5f5;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Polygon_4_copy_2" data-name="Polygon 4 copy 2" class="cls-1" d="M746.9,670.069q-257.685-69.046-69.046-257.685T935.539,481.43Q1004.586,739.115,746.9,670.069Z" transform="translate(-595.5 -329.5)"/>
+  <path id="Polygon_4_copy" data-name="Polygon 4 copy" class="cls-1" d="M751.182,644.7Q534,586.5,692.99,427.518t217.178,58.193Q968.361,702.889,751.182,644.7Z" transform="translate(-595.5 -329.5)"/>
+</svg>
