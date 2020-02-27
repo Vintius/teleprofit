@@ -1282,6 +1282,8 @@ button {
     position: absolute;
     bottom: -165px;
     margin-left: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .samples__slideTop--squares .samples__afterDesc::after {
@@ -1302,7 +1304,7 @@ button {
   .samples__slideTop--triangles .samples__beforeDesc {
     position: absolute;
     top: 0;
-    font-size: 22px;
+    font-size: 24px;
     z-index: 10;
   }
 
@@ -1320,8 +1322,10 @@ button {
 
   .samples__slideTop--triangles .samples__afterDesc {
     position: absolute;
-    font-size: 22px;
+    font-size: 24px;
     bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .samples__slideTop--triangles .samples__afterDesc::after {

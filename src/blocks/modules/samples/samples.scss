@@ -363,6 +363,8 @@
         position: absolute;
         bottom: -165px;
         margin-left: 0;
+        left: 50%;
+        transform: translateX(-50%);
 
         &::after {
           top: -70px;
@@ -383,7 +385,7 @@
       .samples__beforeDesc {
         position: absolute;
         top: 0;
-        font-size: 22px;
+        font-size: 24px;
         z-index: 10;
 
         &::before {
@@ -401,8 +403,10 @@
 
       .samples__afterDesc {
         position: absolute;
-        font-size: 22px;
+        font-size: 24px;
         bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
 
         &::after {
           transform: rotate(-133deg);
