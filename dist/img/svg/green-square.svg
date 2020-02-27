@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="206.719" height="137.5">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        fill: #b1cd51;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path id="Rectangle_16_copy" data-name="Rectangle 16 copy" class="cls-1" d="M639.125,472.086H845.844V609.6H639.125V472.086Z" transform="translate(-639.125 -472.094)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="206.719" height="137.5"><path id="Rectangle_16_copy" data-name="Rectangle 16 copy" d="M639.125 472.086h206.719V609.6H639.125V472.086z" transform="translate(-639.125 -472.094)" fill="#b1cd51" fill-rule="evenodd"/></svg>
