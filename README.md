@@ -1,7 +1,9 @@
 # Teleprofit
 
+Для визуального просмотра: скачать проект, запустить ярлык index.html  
+
 Сборка проекта основана на разработке
-https://github.om/andreyalexeich/gulp-scss-starter.git
+https://github.com/andreyalexeich/gulp-scss-starter.git
 
 ## Особенности
 * именование классов по [БЭМ](https://ru.bem.info/)
