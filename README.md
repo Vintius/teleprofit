@@ -1,6 +1,6 @@
 # Teleprofit
 
-Для визуального просмотра: скачать проект, запустить ярлык index.html в корне, или в папке Dist  
+Просмотр проекта: https://vintius.github.io/teleprofit/  
 
 Сборка проекта основана на разработке
 https://github.com/andreyalexeich/gulp-scss-starter.git
